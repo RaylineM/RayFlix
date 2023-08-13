@@ -176,8 +176,5 @@ function selecao_destaque(){
              selecao_tag.classList.add('selecao');
         })
     }
-/*     const tags = document.querySelectorAll('.tag');
-    tags.forEach(tag => {
-        tag.classList.remove('selecao')
-    }) */
+
 }
