@@ -167,14 +167,3 @@ async function get_filmes_por_genero() {
 }
 
 
-//modificando a cor do botão do(s) gêneros selecionados
-
-function selecao_destaque(){
-    if(selecao_por_genero.length !=0){
-        selecao_por_genero.forEach(id => {
-            const selecao_tag = document.getElementById(id);
-             selecao_tag.classList.add('selecao');
-        })
-    }
-
-}
