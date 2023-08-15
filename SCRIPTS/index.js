@@ -154,7 +154,6 @@ function set_genero() {
 async function get_filmes_por_genero() {
     const genero_query = selecao_por_genero.join(',');
     const url_com_genero = api_url + '&with_genres=' + encodeURI(genero_query);
-    selecao_destaque();
 
     try {
         const resultado = await fetch(url_com_genero);
