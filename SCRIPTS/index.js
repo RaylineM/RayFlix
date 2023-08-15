@@ -1,5 +1,4 @@
 const chave_api = 'aa169569112bceef9d4ee4d725de9e8d';
-const base_url = 'https://api.themoviedb.org/3/'
 const api_url = `https://api.themoviedb.org/3/movie/popular?language=pt-BR&api_key=${chave_api}`;
 
 /*Obter dados */
