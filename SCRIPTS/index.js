@@ -17,7 +17,7 @@ async function get_dados(end_point) {
     }
 }
 
-//movie = card  style="width: 18rem;"
+
 
 /*Mostrar dados */
 function show(filmes) {
